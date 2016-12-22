@@ -23,6 +23,7 @@ static uint8_t ChatteringFilter(uint8_t val) {
     filteredVal = val;
   }
   lastVal = val;
+  return filteredVal;
 }
 
 void setup() {
